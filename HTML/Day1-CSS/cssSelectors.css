@@ -1,0 +1,36 @@
+*
+{
+    color: yellow;
+}
+table
+{
+    border: 2px solid grey;
+    width: 400px;
+    height: 300px;
+}
+td
+{
+    text-align: center;
+    font-size: larger;
+}
+th
+{
+   color: black; 
+   background-color: grey;
+   font-size: larger;
+}
+#frow
+{
+    background-color:blue;
+    
+}
+.srow { 
+    background-color: purple;
+}
+.header
+{
+    color: aqua;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+}

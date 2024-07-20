@@ -1,0 +1,57 @@
+.div1
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 150px;
+}
+.div2
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+.div3
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+}
+.div4
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.div5
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.div6
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.div7
+{
+    border:2px solid green;
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    
+}

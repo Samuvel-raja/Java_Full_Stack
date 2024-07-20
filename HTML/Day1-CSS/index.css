@@ -1,0 +1,26 @@
+h1
+{
+    color: blue;
+    background-color: antiquewhite;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    border: 2px solid gray;
+}
+table
+{
+    border: 2px dashed blue;
+    width: 400px;
+    height: 200px;
+}
+th
+{
+    background-color: gainsboro;
+}
+td
+{
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    font-size: larger;
+}
