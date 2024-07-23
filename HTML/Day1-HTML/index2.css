@@ -1,0 +1,102 @@
+.header
+{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    height: 40vh;
+    padding: 50px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.header .pro-img
+{
+    margin: 50px;
+    
+    
+}
+.header .pro-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 2px 2px 2px 4px grey;
+}
+.header .head-left
+{
+    margin: 70px;
+}
+.div
+{
+    display: flex;
+
+}
+.div-left
+{
+    box-shadow: 2px 2px 2px 2px grey;
+   
+}
+.div-right
+{
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 40px;
+}
+.div-right:hover
+{
+  background-color: black;
+  color: aqua;
+  transition: 10ms;
+  transition-duration: 2s;
+  transform: scale(1.1);
+  padding: 50px;
+  cursor: pointer;
+}
+.div-left:hover
+{
+  background-color: black;
+  color: aqua;
+  transition-duration: 2s;
+  transform: scale(1.1);
+  padding: 50px;
+  cursor: pointer;
+}
+.header:hover
+{
+    background-color: black;
+  color: yellow;
+  transition-duration: 2s;
+  transform: scale(1.1);
+  padding: 50px;
+  cursor: pointer;
+}
+h1:hover,h2:hover
+{
+    font-family:cursive;
+    transition-duration: 2s;
+    color:yellow;
+}
+.skills
+{
+    display: flex;
+    gap: 40px;
+
+}
+.objective,.eduction_and_skills
+{
+    /* border-right: 2px solid black; */
+    margin: 50px;
+}
+/* .skill2
+{
+    border-right: 2px solid black;
+} */
+ .projects
+ {
+    margin-bottom: 50px;
+ }
+ a{
+    text-decoration: none;
+    color:green;
+ }
+h1,h2
+{
+    color:purple;
+}
