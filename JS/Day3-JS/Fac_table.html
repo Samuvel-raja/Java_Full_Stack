@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact</title>
+</head>
+<script>
+    const fact=()=>
+    {
+       let val=parseInt(document.querySelector(".inp").value)
+       let scn=document.querySelector(".scn")
+       let res="<table border='2'>"
+        res+="<tr><th>Number</th><th>Value</th></tr></thead>"
+        f=1
+        for(i=1;i<=val;i++)
+        f=f*i
+        res+="<tr><td>"+val+"</td><td>"+f+"</td></tr>"
+           
+            scn.innerHTML+=res
+             res+="</table>"
+
+    }
+</script>
+<body>
+    <input type="text" class="inp" >
+    <button class="btn" onclick="fact()">click</button>
+    <div class="scn"></div>
+</body>
+</html>

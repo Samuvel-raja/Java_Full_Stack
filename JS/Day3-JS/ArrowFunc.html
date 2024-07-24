@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow_Function</title>
+    <script>
+        const sum=()=>10+20;
+        document.write(sum()+"<br>")
+        const sub=()=>10-20;
+        document.write(sub()+"<br>")
+        const mul=()=>10*20;
+        document.write(mul()+"<br>")
+        const big=(a,b)=>
+        {
+            if(a>b)
+             return a;
+            return b;
+        };
+      
+        document.write(big(292,383)+"<br>")
+
+        //factorial
+       
+        const fact=(n)=>
+        {
+           f=1;
+           for( i=1;i<=n;i++)
+            f=f*i
+          return f;
+
+        }
+        document.write(fact(5))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
