@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<script>
+    function changecolor()
+    {
+        document.querySelector(".btnclick").style.padding="40px"
+    }
+</script>
+<body>
+    <button class="btnclick">Onclick</button>
+    <br>
+    <p>Onchange</p>
+    <input class="btnchange" type="text"><br>
+    <p>OnFocus and Onblur</p>
+    <input type="text" id="num" onfocus="this.value=''" onblur="changecolor()"/>   
+       
+
+</body>
+<script src="Events.js"></script>
+</html>
