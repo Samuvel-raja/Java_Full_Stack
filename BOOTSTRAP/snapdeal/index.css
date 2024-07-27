@@ -1,0 +1,150 @@
+
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}.navbar1
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e40046;
+    height: 30px;
+    font-size: small;
+    color: white;
+}
+.navbar2
+{
+ 
+   
+    flex-direction: row;
+    gap: 40px;
+    /* background-image: url("https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg"); */
+    background-color: #e40046;
+    padding: 10px;
+    
+}
+.navbar2 input
+{
+    width: 600px;
+  
+    padding: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+
+}
+.navbar2 label
+{
+    background-color: black;
+    color: white;
+    width: 100px;height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding-left: 20px;
+}
+.card-elem img
+{
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+ 
+}
+li
+{
+    list-style: none;
+}
+.card-text
+{
+    font-size: small;
+}
+.banner-right .card
+{
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    padding: 15px;
+    font-size: large;
+}
+/* .form-group
+{
+    padding: 10px;
+} */
+.form-group input
+{
+    width: 220px;
+    height: 30px;
+    font-size: small;
+    padding: 5px;
+}
+.banner-form .card img
+{
+ width: 290px;
+ height: 152px;
+}
+.banner-form .card-body pre
+{
+    
+    font-size:11px;
+    overflow-x: hidden;
+    margin-bottom: 0%;
+    
+}
+.card-elem
+{
+    gap: 10px;
+    justify-content: start;
+    margin-left: 0;
+    font-size: small;
+}
+.nav-items
+{
+    display: flex;
+}
+.box
+{
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-small;
+}
+.carousel-inner img
+{
+    width: 1000px;
+    height: 250px;
+}
+ul
+{
+    list-style: none;
+}
+.products .card img
+{
+    width: 178px;
+    height: 200px;
+}
+.products .card
+{
+    font-size: small;
+    width: 260px;
+    height: 370px;
+}
+.products .card:hover
+{
+    box-shadow: 0 4px 7px -2px grey;
+    cursor: pointer;
+}
+.products .card .card-body img
+{
+ width: 100px;
+ height: 40px;
+}
+.cart
+{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    color: white;
+}
