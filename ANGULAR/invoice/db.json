@@ -1,0 +1,12 @@
+[
+    {
+        "invoiceId":"101",
+        "invoiceName":"Soap",
+        "invoicePrice":"50"
+    },
+    {
+        "invoiceId":"102",
+        "invoiceName":"Perfume",
+        "invoicePrice":"250"
+    }
+]

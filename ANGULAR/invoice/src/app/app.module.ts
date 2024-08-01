@@ -4,7 +4,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-
+import { InvoiceService } from './invoice.service';
 
 @NgModule({
   declarations: [
@@ -14,10 +14,11 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule
-   
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    InvoiceService
+  
   ],
   bootstrap: [AppComponent]
 })
