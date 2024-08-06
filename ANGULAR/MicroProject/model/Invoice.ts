@@ -1,7 +1,8 @@
 export class Invoice
 {
-    invoiceId:number=0;
-    invoiceName:string="";
+    
+    id:string="";
+    invoiceDate:string="";
     customerName:string="";
     customerMob:number=0;
     customerLoc:string="";
